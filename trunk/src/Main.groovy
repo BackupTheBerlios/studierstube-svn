@@ -20,11 +20,6 @@ public static class Main
 	}
 	
 	public static void main(String[] args) {
-		def zauber = new xml.Zauber()
-		zauber.load()
-		if (zauber.zauber.ad.is()) //.Inhalt.text()
-		{
-			println "null"
-		}
+		
 	}
 }
