@@ -5,8 +5,6 @@
 * of the (3-clause) BSD license. See LICENSE.txt for details. *
 **************************************************************/
 
-package studierstube
-
 public static class Main
 {
 	public static final String NAME = "Studierstube";
@@ -19,5 +17,14 @@ public static class Main
 	{
 		println "$NAME $VERSION"
 		println "$COPYRIGHT $AUTHOR ($EMAIL)"
+	}
+	
+	public static void main(String[] args) {
+		def zauber = new xml.Zauber()
+		zauber.load()
+		if (zauber.zauber.ad.is()) //.Inhalt.text()
+		{
+			println "null"
+		}
 	}
 }
