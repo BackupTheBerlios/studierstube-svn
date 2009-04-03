@@ -16,9 +16,8 @@ public class Zauber {
 	
 	public void load() {
 		def xdiml = new XmlSlurper().parse(new File(this.class.getResource('zauber.xml').toURI()))
-		println "Reading XML format version " + xdiml.children().@version  // debug() ?
-		def zaubersprueche = xdiml.children().children()  // ugly; also ignores versions
-		zaubersprueche.children().each { zauber ->
+		println "Reading XML format version " + xdiml.Studierstube.@version  // debug() ?
+		xdiml.Studierstube.Zaubersprueche.children().each { zauber ->
 			def merkmale = []
 			zauber.Merkmale.children().each { merkmale.add(it) }
 			def varianten = []
