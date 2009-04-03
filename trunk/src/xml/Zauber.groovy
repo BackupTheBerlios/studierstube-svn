@@ -12,7 +12,7 @@ package xml
  *
  */
 public class Zauber {
-	def liste = []
+	def list = []
 	
 	public void load() {
 		def xdiml = new XmlSlurper().parse(new File(this.class.getResource('zauber.xml').toURI()))
@@ -28,7 +28,7 @@ public class Zauber {
 					probe:zauber.Probe.toString().split("/"),
 					merkmale:merkmale,
 					varianten:varianten)
-			liste.add(z)
+			list.add(z)
 		}
 	}
 	
@@ -37,7 +37,7 @@ public class Zauber {
 		mb.XDIML(version:"1.2") {
 			Studierstube(version:"0.1") { // TODO: global variable
 				Zaubersprueche {
-					liste.each { zauber -> Zauber(name:zauber.getName()) { // sort?
+					list.each { zauber -> Zauber(name:zauber.getName()) { // sort?
 						Komplexitaet(zauber.getKomplexitaet())
 						Probe(zauber.getProbe().join("/"))
 						Merkmale() {
