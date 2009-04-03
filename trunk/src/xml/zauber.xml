@@ -256,7 +256,7 @@
       </Zauber>
       <Zauber name='Attributo'>
         <Komplexitaet>B</Komplexitaet>
-        <Probe>KL/CH/KL</Probe>
+        <Probe>KL/CH/??</Probe>
         <Merkmale>
           <Merkmal>Eigenschaften</Merkmal>
         </Merkmale>
