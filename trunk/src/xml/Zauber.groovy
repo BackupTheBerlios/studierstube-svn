@@ -35,7 +35,7 @@ public class Zauber {
 	public void write() {
 		def mb = new groovy.xml.MarkupBuilder(new IndentPrinter(new PrintWriter("/tmp/test.xml")))
 		mb.XDIML(version:"1.2") {
-			Studierstube(version:"0.1") { // TODO: global variable
+			Studierstube(version:core.Global.VERSION) {
 				Zaubersprueche {
 					list.each { zauber -> Zauber(name:zauber.getName()) { // sort?
 						Komplexitaet(zauber.getKomplexitaet())

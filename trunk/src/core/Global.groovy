@@ -5,21 +5,16 @@
 * of the (3-clause) BSD license. See LICENSE.txt for details. *
 **************************************************************/
 
-public static class Main
-{
+package core
+
+/**
+ * @author twel
+ *
+ */
+public class Global {
 	public static final String NAME = "Studierstube";
 	public static final String VERSION = "0.1";
 	public static final String COPYRIGHT = "Copyright (c) 2005-2009";
 	public static final String AUTHOR = "Stefan Holzmüller";
 	public static final String EMAIL = "twelwan@gmx.de";
-	
-	public static void identify()
-	{
-		println "$NAME $VERSION"
-		println "$COPYRIGHT $AUTHOR ($EMAIL)"
-	}
-	
-	public static void main(String[] args) {
-		
-	}
 }
