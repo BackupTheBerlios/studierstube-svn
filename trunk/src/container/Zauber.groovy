@@ -5,7 +5,7 @@
 * of the (3-clause) BSD license. See LICENSE.txt for details. *
 **************************************************************/
 
-package tests
+package container
 
 /**
  * @author twel
@@ -13,12 +13,12 @@ package tests
  */
 public class Zauber {
 	String id
-	String komplexität
+	String komplexitaet
 	String[] probe
 	String[] merkmale
 	String[] varianten
 	
 	public String toString() {
-		return "ID = $id; Komplexität = $komplexität; Probe = $probe; Merkmale = $merkmale; Varianten = $varianten"
+		return "ID = $id; Komplexität = $komplexitaet; Probe = $probe; Merkmale = $merkmale; Varianten = $varianten"
 	}
 }
