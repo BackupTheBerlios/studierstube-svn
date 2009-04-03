@@ -32,7 +32,6 @@ BerliOS sind hier zu finden:
 
     http://developer.berlios.de/projects/studierstube/
 
-JavaDoc-Dokumentation liegt dem Projekt bei (im Verzeichnis 'api').
 
 Über Fragen, konstruktive Kritik und Anregungen würde ich mich freuen.
     Stefan Holzmüller
