@@ -1,7 +1,7 @@
 <XDIML version='1.2'>
   <Studierstube version='0.1'>
     <Zaubersprueche>
-      <Zauber ID='Abvenenum reine Speise'>
+      <Zauber name='Abvenenum reine Speise'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/KL/FF</Probe>
         <Merkmale>
@@ -14,7 +14,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Accuratum Zaubernadel'>
+      <Zauber name='Accuratum Zaubernadel'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/CH/FF</Probe>
         <Merkmale>
@@ -30,7 +30,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Adamantium Erzstruktur'>
+      <Zauber name='Adamantium Erzstruktur'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/FF/KO</Probe>
         <Merkmale>
@@ -49,7 +49,7 @@
           <Variante>Zauberstahl</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Adlerauge Luchsenohr'>
+      <Zauber name='Adlerauge Luchsenohr'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>KL/IN/FF</Probe>
         <Merkmale>
@@ -63,7 +63,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Adlerschwinge Wolfsgestalt'>
+      <Zauber name='Adlerschwinge Wolfsgestalt'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/IN/GE</Probe>
         <Merkmale>
@@ -79,7 +79,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Aeolitus Windgebraus'>
+      <Zauber name='Aeolitus Windgebraus'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>KL/CH/KO</Probe>
         <Merkmale>
@@ -95,7 +95,7 @@
           <Variante>Übler Gestank</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Aerofugo Vakuum'>
+      <Zauber name='Aerofugo Vakuum'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/KO/KK</Probe>
         <Merkmale>
@@ -109,7 +109,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Aerogelo Atemqual'>
+      <Zauber name='Aerogelo Atemqual'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/IN/KO</Probe>
         <Merkmale>
@@ -122,7 +122,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Alpgestalt'>
+      <Zauber name='Alpgestalt'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/CH/GE</Probe>
         <Merkmale>
@@ -139,7 +139,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Analys Arcanstruktur'>
+      <Zauber name='Analys Arcanstruktur'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>KL/KL/IN</Probe>
         <Merkmale>
@@ -152,7 +152,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Ängste lindern'>
+      <Zauber name='Ängste lindern'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/IN/CH</Probe>
         <Merkmale>
@@ -168,7 +168,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Animatio stummer Diener'>
+      <Zauber name='Animatio stummer Diener'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>KL/FF/GE</Probe>
         <Merkmale>
@@ -183,7 +183,7 @@
           <Variante>Tagelöhner</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Applicatus Zauberspeicher'>
+      <Zauber name='Applicatus Zauberspeicher'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/FF/FF</Probe>
         <Merkmale>
@@ -199,7 +199,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Arachnea Krabbeltier'>
+      <Zauber name='Arachnea Krabbeltier'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/IN/CH</Probe>
         <Merkmale>
@@ -214,7 +214,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Arcanovi Artefakt'>
+      <Zauber name='Arcanovi Artefakt'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>KL/KL/FF</Probe>
         <Merkmale>
@@ -223,7 +223,7 @@
         </Merkmale>
         <Varianten />
       </Zauber>
-      <Zauber ID='Armatrutz'>
+      <Zauber name='Armatrutz'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>IN/GE/KO</Probe>
         <Merkmale>
@@ -239,7 +239,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Atemnot'>
+      <Zauber name='Atemnot'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/KO/KK</Probe>
         <Merkmale>
@@ -254,7 +254,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Attributo'>
+      <Zauber name='Attributo'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>KL/CH/KL</Probe>
         <Merkmale>
@@ -275,7 +275,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Aufgeblasen Abgehoben'>
+      <Zauber name='Aufgeblasen Abgehoben'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>CH/KO/KK</Probe>
         <Merkmale>
@@ -290,7 +290,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Auge des Limbus'>
+      <Zauber name='Auge des Limbus'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>MU/KO/KK</Probe>
         <Merkmale>
@@ -306,7 +306,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Aureolus Güldenglanz'>
+      <Zauber name='Aureolus Güldenglanz'>
         <Komplexitaet>A</Komplexitaet>
         <Probe>IN/CH/FF</Probe>
         <Merkmale>
@@ -322,7 +322,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Auris Nasus Oculus'>
+      <Zauber name='Auris Nasus Oculus'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>KL/CH/FF</Probe>
         <Merkmale>
@@ -341,7 +341,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Axxeleratus Blitzgeschwind'>
+      <Zauber name='Axxeleratus Blitzgeschwind'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/GE/KO</Probe>
         <Merkmale>
@@ -356,7 +356,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Balsam Salabunde'>
+      <Zauber name='Balsam Salabunde'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/IN/CH</Probe>
         <Merkmale>
@@ -371,7 +371,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Band und Fessel'>
+      <Zauber name='Band und Fessel'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/CH/KK</Probe>
         <Merkmale>
@@ -384,7 +384,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Bannbaladin'>
+      <Zauber name='Bannbaladin'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>IN/CH/CH</Probe>
         <Merkmale>
@@ -400,7 +400,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Bärenruhe Winterschlaf'>
+      <Zauber name='Bärenruhe Winterschlaf'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/KK/KO</Probe>
         <Merkmale>
@@ -414,7 +414,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Beherrschung brechen'>
+      <Zauber name='Beherrschung brechen'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/IN/CH</Probe>
         <Merkmale>
@@ -429,7 +429,7 @@
           <Variante>Zone</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Beschwörung vereiteln'>
+      <Zauber name='Beschwörung vereiteln'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/IN/CH</Probe>
         <Merkmale>
@@ -445,7 +445,7 @@
           <Variante>Zone</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Bewegung stören'>
+      <Zauber name='Bewegung stören'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/IN/FF</Probe>
         <Merkmale>
@@ -460,7 +460,7 @@
           <Variante>Zone</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Blendwerk'>
+      <Zauber name='Blendwerk'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>IN/CH/GE</Probe>
         <Merkmale>
@@ -468,7 +468,7 @@
         </Merkmale>
         <Varianten />
       </Zauber>
-      <Zauber ID='Blick aufs Wesen'>
+      <Zauber name='Blick aufs Wesen'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/IN/CH</Probe>
         <Merkmale>
@@ -480,7 +480,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Blick durch fremde Augen'>
+      <Zauber name='Blick durch fremde Augen'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>MU/IN/CH</Probe>
         <Merkmale>
@@ -497,7 +497,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Blick in die Gedanken'>
+      <Zauber name='Blick in die Gedanken'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>KL/KL/CH</Probe>
         <Merkmale>
@@ -515,7 +515,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Blick in die Vergangenheit'>
+      <Zauber name='Blick in die Vergangenheit'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>KL/KL/IN</Probe>
         <Merkmale>
@@ -526,7 +526,7 @@
           <Variante>Kosten</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Blitz dich find'>
+      <Zauber name='Blitz dich find'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>KL/IN/GE</Probe>
         <Merkmale>
@@ -537,7 +537,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Böser Blick'>
+      <Zauber name='Böser Blick'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/CH/CH</Probe>
         <Merkmale>
@@ -555,7 +555,7 @@
           <Variante>Zweifel</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Brenne, toter Stoff!'>
+      <Zauber name='Brenne, toter Stoff!'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/KL/KO</Probe>
         <Merkmale>
@@ -570,7 +570,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Caldofrigo heiß und kalt'>
+      <Zauber name='Caldofrigo heiß und kalt'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>IN/CH/KO</Probe>
         <Merkmale>
@@ -589,7 +589,7 @@
           <Variante>Zonenzentrum</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Chamaelioni Mimikry'>
+      <Zauber name='Chamaelioni Mimikry'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>IN/CH/GE</Probe>
         <Merkmale>
@@ -602,7 +602,7 @@
           <Variante>Verschwimmende Tarnung</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Chimaeroform Hybridgestalt'>
+      <Zauber name='Chimaeroform Hybridgestalt'>
         <Komplexitaet>F</Komplexitaet>
         <Probe>KL/IN/KO</Probe>
         <Merkmale>
@@ -611,7 +611,7 @@
         </Merkmale>
         <Varianten />
       </Zauber>
-      <Zauber ID='Chronoklassis Urfossil'>
+      <Zauber name='Chronoklassis Urfossil'>
         <Komplexitaet>F</Komplexitaet>
         <Probe>KL/IN/KO</Probe>
         <Merkmale>
@@ -623,7 +623,7 @@
           <Variante>Rückkehr in den Ausgangszustand</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Chrononautos Zeitenfahrt'>
+      <Zauber name='Chrononautos Zeitenfahrt'>
         <Komplexitaet>F</Komplexitaet>
         <Probe>MU/CH/KO</Probe>
         <Merkmale>
@@ -631,7 +631,7 @@
         </Merkmale>
         <Varianten />
       </Zauber>
-      <Zauber ID='Claudibus Clavistibor'>
+      <Zauber name='Claudibus Clavistibor'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/FF/KK</Probe>
         <Merkmale>
@@ -647,7 +647,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Corpofesso Gliederschmerz'>
+      <Zauber name='Corpofesso Gliederschmerz'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/KO/KK</Probe>
         <Merkmale>
@@ -662,7 +662,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Corpofrigo Kälteschock'>
+      <Zauber name='Corpofrigo Kälteschock'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>CH/GE/KO</Probe>
         <Merkmale>
@@ -678,7 +678,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Cryptographo Zauberschrift'>
+      <Zauber name='Cryptographo Zauberschrift'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/KL/IN</Probe>
         <Merkmale>
@@ -694,7 +694,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Custodosigil Diebesbann'>
+      <Zauber name='Custodosigil Diebesbann'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/FF/FF</Probe>
         <Merkmale>
@@ -709,7 +709,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Dämonenbann'>
+      <Zauber name='Dämonenbann'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/CH/KO</Probe>
         <Merkmale>
@@ -726,7 +726,7 @@
           <Variante>Zone</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Delicioso Gaumenschmaus'>
+      <Zauber name='Delicioso Gaumenschmaus'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>KL/CH/FF</Probe>
         <Merkmale>
@@ -742,7 +742,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Desintegratus Pulverstaub'>
+      <Zauber name='Desintegratus Pulverstaub'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>KL/KO/KK</Probe>
         <Merkmale>
@@ -757,7 +757,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Destructibo Arcanitas'>
+      <Zauber name='Destructibo Arcanitas'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>KL/KL/FF</Probe>
         <Merkmale>
@@ -773,7 +773,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Dichter und Denker'>
+      <Zauber name='Dichter und Denker'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/IN/CH</Probe>
         <Merkmale>
@@ -781,7 +781,7 @@
         </Merkmale>
         <Varianten />
       </Zauber>
-      <Zauber ID='Dschinnenruf'>
+      <Zauber name='Dschinnenruf'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>MU/KL/CH</Probe>
         <Merkmale>
@@ -794,7 +794,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Dunkelheit'>
+      <Zauber name='Dunkelheit'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/KL/FF</Probe>
         <Merkmale>
@@ -811,7 +811,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Duplicatus Doppelbild'>
+      <Zauber name='Duplicatus Doppelbild'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/CH/GE</Probe>
         <Merkmale>
@@ -826,7 +826,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Ecliptifactus Schattenkraft'>
+      <Zauber name='Ecliptifactus Schattenkraft'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/KL/KO</Probe>
         <Merkmale>
@@ -841,7 +841,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Eigenschaft wiederherstellen'>
+      <Zauber name='Eigenschaft wiederherstellen'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/IN/CH</Probe>
         <Merkmale>
@@ -856,7 +856,7 @@
           <Variante>Zone</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Eigne Ängste quälen dich!'>
+      <Zauber name='Eigne Ängste quälen dich!'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/IN/CH</Probe>
         <Merkmale>
@@ -873,7 +873,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Einfluss bannen'>
+      <Zauber name='Einfluss bannen'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>IN/CH/CH</Probe>
         <Merkmale>
@@ -888,7 +888,7 @@
           <Variante>Zone</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Eins mit der Natur'>
+      <Zauber name='Eins mit der Natur'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>IN/GE/KO</Probe>
         <Merkmale>
@@ -897,7 +897,7 @@
         </Merkmale>
         <Varianten />
       </Zauber>
-      <Zauber ID='Eisenrost und Patina'>
+      <Zauber name='Eisenrost und Patina'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/CH/GE</Probe>
         <Merkmale>
@@ -913,7 +913,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Eiseskälte Kämpferherz'>
+      <Zauber name='Eiseskälte Kämpferherz'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/IN/KO</Probe>
         <Merkmale>
@@ -926,7 +926,7 @@
           <Variante>andere Person verzaubern</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Elementarbann'>
+      <Zauber name='Elementarbann'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>IN/CH/KO</Probe>
         <Merkmale>
@@ -942,7 +942,7 @@
           <Variante>Zone</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Elementarer Diener'>
+      <Zauber name='Elementarer Diener'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/KL/CH</Probe>
         <Merkmale>
@@ -956,7 +956,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Elfenstimme Flötenton'>
+      <Zauber name='Elfenstimme Flötenton'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>IN/CH/KO</Probe>
         <Merkmale>
@@ -964,7 +964,7 @@
         </Merkmale>
         <Varianten />
       </Zauber>
-      <Zauber ID='Erinnerung verlasse dich!'>
+      <Zauber name='Erinnerung verlasse dich!'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/IN/CH</Probe>
         <Merkmale>
@@ -977,7 +977,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Exposami Lebenskraft'>
+      <Zauber name='Exposami Lebenskraft'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>KL/IN/IN</Probe>
         <Merkmale>
@@ -991,7 +991,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Falkenauge Meisterschuss'>
+      <Zauber name='Falkenauge Meisterschuss'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>IN/FF/GE</Probe>
         <Merkmale>
@@ -1004,7 +1004,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Favilludo Funkentanz'>
+      <Zauber name='Favilludo Funkentanz'>
         <Komplexitaet>A</Komplexitaet>
         <Probe>IN/CH/FF</Probe>
         <Merkmale>
@@ -1019,7 +1019,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Firnlauf'>
+      <Zauber name='Firnlauf'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/KL/GE</Probe>
         <Merkmale>
@@ -1036,7 +1036,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Flim Flam Funkel'>
+      <Zauber name='Flim Flam Funkel'>
         <Komplexitaet>A</Komplexitaet>
         <Probe>KL/KL/FF</Probe>
         <Merkmale>
@@ -1057,7 +1057,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Fluch der Pestilenz'>
+      <Zauber name='Fluch der Pestilenz'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/KL/CH</Probe>
         <Merkmale>
@@ -1073,7 +1073,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Foramen Foraminor'>
+      <Zauber name='Foramen Foraminor'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/KL/FF</Probe>
         <Merkmale>
@@ -1088,7 +1088,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Fortifex arkane Wand'>
+      <Zauber name='Fortifex arkane Wand'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>IN/KO/KK</Probe>
         <Merkmale>
@@ -1104,7 +1104,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Fulminictus Donnerkeil'>
+      <Zauber name='Fulminictus Donnerkeil'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>IN/GE/KO</Probe>
         <Merkmale>
@@ -1118,7 +1118,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Gardianum Zauberschild'>
+      <Zauber name='Gardianum Zauberschild'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>KL/IN/KO</Probe>
         <Merkmale>
@@ -1135,7 +1135,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Gedankenbilder Elfenruf'>
+      <Zauber name='Gedankenbilder Elfenruf'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>KL/IN/CH</Probe>
         <Merkmale>
@@ -1153,7 +1153,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Gefäß der Jahre '>
+      <Zauber name='Gefäß der Jahre '>
         <Komplexitaet>E</Komplexitaet>
         <Probe>MU/KL/KO</Probe>
         <Merkmale>
@@ -1163,7 +1163,7 @@
         </Merkmale>
         <Varianten />
       </Zauber>
-      <Zauber ID='Gefunden!'>
+      <Zauber name='Gefunden!'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/IN/GE</Probe>
         <Merkmale>
@@ -1175,7 +1175,7 @@
           <Variante>Reichweite</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Geisterbann'>
+      <Zauber name='Geisterbann'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/MU/CH</Probe>
         <Merkmale>
@@ -1192,7 +1192,7 @@
           <Variante>Zone</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Geisterruf'>
+      <Zauber name='Geisterruf'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/MU/CH</Probe>
         <Merkmale>
@@ -1206,7 +1206,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Gletscherwand'>
+      <Zauber name='Gletscherwand'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/KL/CH</Probe>
         <Merkmale>
@@ -1220,7 +1220,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Granit und Marmor'>
+      <Zauber name='Granit und Marmor'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/CH/KO</Probe>
         <Merkmale>
@@ -1237,7 +1237,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Große Gier'>
+      <Zauber name='Große Gier'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/KL/CH</Probe>
         <Merkmale>
@@ -1253,7 +1253,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Große Verwirrung'>
+      <Zauber name='Große Verwirrung'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/KL/CH</Probe>
         <Merkmale>
@@ -1269,7 +1269,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Halluzination'>
+      <Zauber name='Halluzination'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/IN/CH</Probe>
         <Merkmale>
@@ -1285,7 +1285,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Harmlose Gestalt'>
+      <Zauber name='Harmlose Gestalt'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/CH/GE</Probe>
         <Merkmale>
@@ -1299,7 +1299,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Hartes schmelze!'>
+      <Zauber name='Hartes schmelze!'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/KL/KK</Probe>
         <Merkmale>
@@ -1312,7 +1312,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Haselbusch und Ginsterkraut'>
+      <Zauber name='Haselbusch und Ginsterkraut'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>CH/FF/KO</Probe>
         <Merkmale>
@@ -1330,7 +1330,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Heilkraft bannen'>
+      <Zauber name='Heilkraft bannen'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/CH/FF</Probe>
         <Merkmale>
@@ -1345,7 +1345,7 @@
           <Variante>Zone</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Hellsicht trüben'>
+      <Zauber name='Hellsicht trüben'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/IN/CH</Probe>
         <Merkmale>
@@ -1362,7 +1362,7 @@
           <Variante>Zone</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Herbeirufung vereiteln'>
+      <Zauber name='Herbeirufung vereiteln'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/IN/CH</Probe>
         <Merkmale>
@@ -1377,7 +1377,7 @@
           <Variante>Zone</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Herr über das Tierreich'>
+      <Zauber name='Herr über das Tierreich'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/MU/CH</Probe>
         <Merkmale>
@@ -1393,7 +1393,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Herzschlag ruhe'>
+      <Zauber name='Herzschlag ruhe'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/CH/KK</Probe>
         <Merkmale>
@@ -1406,7 +1406,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Hexenblick'>
+      <Zauber name='Hexenblick'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>IN/IN/CH</Probe>
         <Merkmale>
@@ -1420,7 +1420,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Hexengalle'>
+      <Zauber name='Hexengalle'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/IN/CH</Probe>
         <Merkmale>
@@ -1434,7 +1434,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Hexenholz'>
+      <Zauber name='Hexenholz'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>KL/FF/KK</Probe>
         <Merkmale>
@@ -1449,7 +1449,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Hexenknoten '>
+      <Zauber name='Hexenknoten '>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/IN/CH</Probe>
         <Merkmale>
@@ -1464,7 +1464,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Hexenkrallen'>
+      <Zauber name='Hexenkrallen'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/IN/KO</Probe>
         <Merkmale>
@@ -1479,7 +1479,7 @@
           <Variante>Zwanzig Krallen</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Hexenspeichel'>
+      <Zauber name='Hexenspeichel'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>IN/CH/FF</Probe>
         <Merkmale>
@@ -1490,7 +1490,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Hilfreiche Tatze, rettende Schwinge'>
+      <Zauber name='Hilfreiche Tatze, rettende Schwinge'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/IN/CH</Probe>
         <Merkmale>
@@ -1504,7 +1504,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Höllenpein zerreiße dich!'>
+      <Zauber name='Höllenpein zerreiße dich!'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/CH/KO</Probe>
         <Merkmale>
@@ -1516,7 +1516,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Holterdipolter'>
+      <Zauber name='Holterdipolter'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>IN/IN/FF</Probe>
         <Merkmale>
@@ -1524,7 +1524,7 @@
         </Merkmale>
         <Varianten />
       </Zauber>
-      <Zauber ID='Horriphobus Schreckgestalt'>
+      <Zauber name='Horriphobus Schreckgestalt'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/IN/CH</Probe>
         <Merkmale>
@@ -1539,7 +1539,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Ignifaxius Flammenstrahl'>
+      <Zauber name='Ignifaxius Flammenstrahl'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/FF/KO</Probe>
         <Merkmale>
@@ -1555,7 +1555,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Ignisphaero Feuerball'>
+      <Zauber name='Ignisphaero Feuerball'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/IN/KO</Probe>
         <Merkmale>
@@ -1570,7 +1570,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Ignorantia Ungesehn'>
+      <Zauber name='Ignorantia Ungesehn'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>IN/CH/GE</Probe>
         <Merkmale>
@@ -1583,7 +1583,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Illusion auflösen'>
+      <Zauber name='Illusion auflösen'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>KL/IN/CH</Probe>
         <Merkmale>
@@ -1598,7 +1598,7 @@
           <Variante>Zone</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Immortalis Lebenszeit'>
+      <Zauber name='Immortalis Lebenszeit'>
         <Komplexitaet>F</Komplexitaet>
         <Probe>MU/CH/KO</Probe>
         <Merkmale>
@@ -1607,7 +1607,7 @@
         </Merkmale>
         <Varianten />
       </Zauber>
-      <Zauber ID='Imperavi Handlungszwang'>
+      <Zauber name='Imperavi Handlungszwang'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>KL/CH/CH</Probe>
         <Merkmale>
@@ -1623,7 +1623,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Impersona Maskenbild'>
+      <Zauber name='Impersona Maskenbild'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>KL/IN/FF</Probe>
         <Merkmale>
@@ -1637,7 +1637,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Infinitum Immerdar'>
+      <Zauber name='Infinitum Immerdar'>
         <Komplexitaet>F</Komplexitaet>
         <Probe>KL/CH/KO</Probe>
         <Merkmale>
@@ -1646,7 +1646,7 @@
         </Merkmale>
         <Varianten />
       </Zauber>
-      <Zauber ID='Invercano Spiegeltrick'>
+      <Zauber name='Invercano Spiegeltrick'>
         <Komplexitaet>F</Komplexitaet>
         <Probe>MU/IN/FF</Probe>
         <Merkmale>
@@ -1660,7 +1660,7 @@
           <Variante>Zusätzliches Merkmal</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Invocatio maior'>
+      <Zauber name='Invocatio maior'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>MU/MU/CH</Probe>
         <Merkmale>
@@ -1672,7 +1672,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Invocatio minor'>
+      <Zauber name='Invocatio minor'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/MU/CH</Probe>
         <Merkmale>
@@ -1684,7 +1684,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Iribaars Hand'>
+      <Zauber name='Iribaars Hand'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/MU/IN</Probe>
         <Merkmale>
@@ -1696,7 +1696,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Juckreiz, dämlicher!'>
+      <Zauber name='Juckreiz, dämlicher!'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>MU/IN/CH</Probe>
         <Merkmale>
@@ -1706,7 +1706,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Karnifilo Raserei'>
+      <Zauber name='Karnifilo Raserei'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/IN/CH</Probe>
         <Merkmale>
@@ -1722,7 +1722,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Katzenaugen'>
+      <Zauber name='Katzenaugen'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/FF/KO</Probe>
         <Merkmale>
@@ -1734,7 +1734,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Klarum Purum'>
+      <Zauber name='Klarum Purum'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>KL/KL/CH</Probe>
         <Merkmale>
@@ -1749,7 +1749,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Klickeradomms'>
+      <Zauber name='Klickeradomms'>
         <Komplexitaet>A</Komplexitaet>
         <Probe>KL/FF/KK</Probe>
         <Merkmale>
@@ -1760,7 +1760,7 @@
           <Variante>Scherbenhaufen</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Koboldgeschenk'>
+      <Zauber name='Koboldgeschenk'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>IN/CH/FF</Probe>
         <Merkmale>
@@ -1771,7 +1771,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Koboldovision'>
+      <Zauber name='Koboldovision'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/CH/CH</Probe>
         <Merkmale>
@@ -1780,7 +1780,7 @@
         </Merkmale>
         <Varianten />
       </Zauber>
-      <Zauber ID='Komm Kobold Komm'>
+      <Zauber name='Komm Kobold Komm'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>IN/IN/CH</Probe>
         <Merkmale>
@@ -1790,7 +1790,7 @@
           <Variante>Namensruf</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Körperlose Reise'>
+      <Zauber name='Körperlose Reise'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>MU/KL/IN</Probe>
         <Merkmale>
@@ -1804,7 +1804,7 @@
           <Variante>Wirkungsdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Krabbelnder Schrecken'>
+      <Zauber name='Krabbelnder Schrecken'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/MU/CH</Probe>
         <Merkmale>
@@ -1819,7 +1819,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Kraft des Erzes'>
+      <Zauber name='Kraft des Erzes'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>KL/KO/KK</Probe>
         <Merkmale>
@@ -1831,7 +1831,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Krähenruf'>
+      <Zauber name='Krähenruf'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/CH/CH</Probe>
         <Merkmale>
@@ -1849,7 +1849,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Krötensprung'>
+      <Zauber name='Krötensprung'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>IN/GE/KK</Probe>
         <Merkmale>
@@ -1861,7 +1861,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Kulminatio Kugelblitz'>
+      <Zauber name='Kulminatio Kugelblitz'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/IN/FF</Probe>
         <Merkmale>
@@ -1879,7 +1879,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Kusch!'>
+      <Zauber name='Kusch!'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>MU/IN/CH</Probe>
         <Merkmale>
@@ -1890,7 +1890,7 @@
           <Variante>Weg! Alle weg!</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Lach dich gesund'>
+      <Zauber name='Lach dich gesund'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>IN/CH/CH</Probe>
         <Merkmale>
@@ -1901,7 +1901,7 @@
           <Variante>Tanz dich wach</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Lachkrampf'>
+      <Zauber name='Lachkrampf'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>CH/CH/FF</Probe>
         <Merkmale>
@@ -1914,7 +1914,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Langer Lulatsch'>
+      <Zauber name='Langer Lulatsch'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>CH/GE/KK</Probe>
         <Merkmale>
@@ -1926,7 +1926,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Last des Alters'>
+      <Zauber name='Last des Alters'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>IN/CH/KO</Probe>
         <Merkmale>
@@ -1941,7 +1941,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Leib der Erde'>
+      <Zauber name='Leib der Erde'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/IN/GE</Probe>
         <Merkmale>
@@ -1959,7 +1959,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Leib der Wogen'>
+      <Zauber name='Leib der Wogen'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>MU/KL/GE</Probe>
         <Merkmale>
@@ -1976,7 +1976,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Leib des Eises'>
+      <Zauber name='Leib des Eises'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>MU/KL/GE</Probe>
         <Merkmale>
@@ -1994,7 +1994,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Leib des Erzes'>
+      <Zauber name='Leib des Erzes'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>MU/GE/KK</Probe>
         <Merkmale>
@@ -2011,7 +2011,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Leib des Feuers'>
+      <Zauber name='Leib des Feuers'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>MU/MU/GE</Probe>
         <Merkmale>
@@ -2029,7 +2029,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Leib des Windes '>
+      <Zauber name='Leib des Windes '>
         <Komplexitaet>E</Komplexitaet>
         <Probe>MU/GE/KK</Probe>
         <Merkmale>
@@ -2046,7 +2046,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Leidensbund'>
+      <Zauber name='Leidensbund'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/IN/KO</Probe>
         <Merkmale>
@@ -2059,7 +2059,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Levthans Feuer'>
+      <Zauber name='Levthans Feuer'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>IN/CH/CH</Probe>
         <Merkmale>
@@ -2071,7 +2071,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Limbus versiegeln'>
+      <Zauber name='Limbus versiegeln'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>KL/IN/KO</Probe>
         <Merkmale>
@@ -2085,7 +2085,7 @@
           <Variante>Zone</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Lockruf und Feenfüße'>
+      <Zauber name='Lockruf und Feenfüße'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>IN/CH/FF</Probe>
         <Merkmale>
@@ -2099,7 +2099,7 @@
           <Variante>Husch, husch</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Lunge des Leviatan'>
+      <Zauber name='Lunge des Leviatan'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>IN/CH/KO</Probe>
         <Merkmale>
@@ -2110,7 +2110,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Madas Spiegel'>
+      <Zauber name='Madas Spiegel'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/KL/IN</Probe>
         <Merkmale>
@@ -2122,7 +2122,7 @@
           <Variante>Wirkungsdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Magischer Raub'>
+      <Zauber name='Magischer Raub'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/KL/KO</Probe>
         <Merkmale>
@@ -2135,7 +2135,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Mahlstrom'>
+      <Zauber name='Mahlstrom'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/IN/KK</Probe>
         <Merkmale>
@@ -2149,7 +2149,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Manifesto Element'>
+      <Zauber name='Manifesto Element'>
         <Komplexitaet>A</Komplexitaet>
         <Probe>KL/IN/CH</Probe>
         <Merkmale>
@@ -2163,7 +2163,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Meister der Elemente'>
+      <Zauber name='Meister der Elemente'>
         <Komplexitaet>F</Komplexitaet>
         <Probe>MU/KL/CH</Probe>
         <Merkmale>
@@ -2177,7 +2177,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Meister minderer Geister'>
+      <Zauber name='Meister minderer Geister'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>MU/CH/CH</Probe>
         <Merkmale>
@@ -2185,7 +2185,7 @@
         </Merkmale>
         <Varianten />
       </Zauber>
-      <Zauber ID='Memorabia Falsifir'>
+      <Zauber name='Memorabia Falsifir'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>KL/IN/CH</Probe>
         <Merkmale>
@@ -2202,7 +2202,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Memorans Gedächtniskraft'>
+      <Zauber name='Memorans Gedächtniskraft'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/KL/IN</Probe>
         <Merkmale>
@@ -2217,7 +2217,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Menetekel Flammenschrift'>
+      <Zauber name='Menetekel Flammenschrift'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>KL/CH/FF</Probe>
         <Merkmale>
@@ -2229,7 +2229,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Metamagie neutralisieren'>
+      <Zauber name='Metamagie neutralisieren'>
         <Komplexitaet>F</Komplexitaet>
         <Probe>KL/KL/KO</Probe>
         <Merkmale>
@@ -2244,7 +2244,7 @@
           <Variante>Zone</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Metamorpho Gletscherform'>
+      <Zauber name='Metamorpho Gletscherform'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/FF/KK</Probe>
         <Merkmale>
@@ -2259,7 +2259,7 @@
           <Variante>Wasser zu Eis</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Motoricus '>
+      <Zauber name='Motoricus '>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/FF/KK</Probe>
         <Merkmale>
@@ -2278,7 +2278,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Movimento Dauerlauf'>
+      <Zauber name='Movimento Dauerlauf'>
         <Komplexitaet>A</Komplexitaet>
         <Probe>IN/GE/KO</Probe>
         <Merkmale>
@@ -2292,7 +2292,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Murks und Patz'>
+      <Zauber name='Murks und Patz'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>IN/IN/FF</Probe>
         <Merkmale>
@@ -2300,7 +2300,7 @@
         </Merkmale>
         <Varianten />
       </Zauber>
-      <Zauber ID='Nackedei'>
+      <Zauber name='Nackedei'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>KL/IN/FF</Probe>
         <Merkmale>
@@ -2312,7 +2312,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Nebelleib'>
+      <Zauber name='Nebelleib'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/IN/KO</Probe>
         <Merkmale>
@@ -2326,7 +2326,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Nebelwand und Morgendunst'>
+      <Zauber name='Nebelwand und Morgendunst'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/FF/KO</Probe>
         <Merkmale>
@@ -2345,7 +2345,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Nekropathia Seelenreise'>
+      <Zauber name='Nekropathia Seelenreise'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>MU/KL/CH</Probe>
         <Merkmale>
@@ -2354,7 +2354,7 @@
         </Merkmale>
         <Varianten />
       </Zauber>
-      <Zauber ID='Nihilogravo Schwerelos'>
+      <Zauber name='Nihilogravo Schwerelos'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>KL/KO/KK</Probe>
         <Merkmale>
@@ -2370,7 +2370,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Nuntiovolo Botenvogel'>
+      <Zauber name='Nuntiovolo Botenvogel'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/KL/CH</Probe>
         <Merkmale>
@@ -2385,7 +2385,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Objecto Obscuro'>
+      <Zauber name='Objecto Obscuro'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>KL/FF/KO</Probe>
         <Merkmale>
@@ -2396,7 +2396,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Objectofixo'>
+      <Zauber name='Objectofixo'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>KL/KL/KK</Probe>
         <Merkmale>
@@ -2413,7 +2413,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Objectovoco'>
+      <Zauber name='Objectovoco'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/IN/CH</Probe>
         <Merkmale>
@@ -2426,7 +2426,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Objekt entzaubern'>
+      <Zauber name='Objekt entzaubern'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/IN/FF</Probe>
         <Merkmale>
@@ -2443,7 +2443,7 @@
           <Variante>Zone</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Oculus Astralis'>
+      <Zauber name='Oculus Astralis'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>KL/IN/CH</Probe>
         <Merkmale>
@@ -2458,7 +2458,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Odem Arcanum'>
+      <Zauber name='Odem Arcanum'>
         <Komplexitaet>A</Komplexitaet>
         <Probe>KL/IN/IN</Probe>
         <Merkmale>
@@ -2474,7 +2474,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Pandaemonium'>
+      <Zauber name='Pandaemonium'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/MU/CH</Probe>
         <Merkmale>
@@ -2487,7 +2487,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Panik überkomme euch!'>
+      <Zauber name='Panik überkomme euch!'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>MU/CH/CH</Probe>
         <Merkmale>
@@ -2499,7 +2499,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Papperlapapp'>
+      <Zauber name='Papperlapapp'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>IN/IN/FF</Probe>
         <Merkmale>
@@ -2507,7 +2507,7 @@
         </Merkmale>
         <Varianten />
       </Zauber>
-      <Zauber ID='Paralysis starr wie Stein'>
+      <Zauber name='Paralysis starr wie Stein'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>IN/CH/KK</Probe>
         <Merkmale>
@@ -2521,7 +2521,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Pectetondo Zauberhaar'>
+      <Zauber name='Pectetondo Zauberhaar'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>KL/CH/FF</Probe>
         <Merkmale>
@@ -2536,7 +2536,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Penetrizzel Tiefenblick'>
+      <Zauber name='Penetrizzel Tiefenblick'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/KL/KO</Probe>
         <Merkmale>
@@ -2552,7 +2552,7 @@
           <Variante>Zusätzlicher Sinn</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Pentagramma Sphärenbann'>
+      <Zauber name='Pentagramma Sphärenbann'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/MU/CH</Probe>
         <Merkmale>
@@ -2568,7 +2568,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Pestilenz erspüren'>
+      <Zauber name='Pestilenz erspüren'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/IN/CH</Probe>
         <Merkmale>
@@ -2580,7 +2580,7 @@
           <Variante>Reichweite</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Pfeil der Luft'>
+      <Zauber name='Pfeil der Luft'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/IN/CH</Probe>
         <Merkmale>
@@ -2596,7 +2596,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Pfeil des Eises'>
+      <Zauber name='Pfeil des Eises'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/IN/CH</Probe>
         <Merkmale>
@@ -2612,7 +2612,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Pfeil des Erzes'>
+      <Zauber name='Pfeil des Erzes'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/IN/CH</Probe>
         <Merkmale>
@@ -2628,7 +2628,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Pfeil des Feuers'>
+      <Zauber name='Pfeil des Feuers'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/IN/CH</Probe>
         <Merkmale>
@@ -2644,7 +2644,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Pfeil des Humus'>
+      <Zauber name='Pfeil des Humus'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/IN/CH</Probe>
         <Merkmale>
@@ -2660,7 +2660,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Pfeil des Wassers'>
+      <Zauber name='Pfeil des Wassers'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/IN/CH</Probe>
         <Merkmale>
@@ -2676,7 +2676,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Planastrale Anderwelt '>
+      <Zauber name='Planastrale Anderwelt '>
         <Komplexitaet>F</Komplexitaet>
         <Probe>MU/MU/KO</Probe>
         <Merkmale>
@@ -2684,7 +2684,7 @@
         </Merkmale>
         <Varianten />
       </Zauber>
-      <Zauber ID='Plumbumbarum schwerer Arm'>
+      <Zauber name='Plumbumbarum schwerer Arm'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>CH/GE/KK</Probe>
         <Merkmale>
@@ -2698,7 +2698,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Projektimago Ebenbild'>
+      <Zauber name='Projektimago Ebenbild'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/IN/CH</Probe>
         <Merkmale>
@@ -2714,7 +2714,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Protectionis Kontrabann'>
+      <Zauber name='Protectionis Kontrabann'>
         <Komplexitaet>F</Komplexitaet>
         <Probe>KL/CH/KO</Probe>
         <Merkmale>
@@ -2728,7 +2728,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Psychostabilis'>
+      <Zauber name='Psychostabilis'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/KL/KO</Probe>
         <Merkmale>
@@ -2745,7 +2745,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Radau'>
+      <Zauber name='Radau'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/CH/KO</Probe>
         <Merkmale>
@@ -2758,7 +2758,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Reflectimago Spiegelschein'>
+      <Zauber name='Reflectimago Spiegelschein'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>KL/CH/FF</Probe>
         <Merkmale>
@@ -2774,7 +2774,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Reptilea Natternnest'>
+      <Zauber name='Reptilea Natternnest'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/IN/CH</Probe>
         <Merkmale>
@@ -2788,7 +2788,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Respondami Warheitszwang'>
+      <Zauber name='Respondami Warheitszwang'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>MU/IN/CH</Probe>
         <Merkmale>
@@ -2801,7 +2801,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Reversalis Revidum'>
+      <Zauber name='Reversalis Revidum'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>KL/IN/CH</Probe>
         <Merkmale>
@@ -2811,7 +2811,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Ruhe Körper, ruhe Geist'>
+      <Zauber name='Ruhe Körper, ruhe Geist'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>KL/CH/KO</Probe>
         <Merkmale>
@@ -2821,7 +2821,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Salander Mutander'>
+      <Zauber name='Salander Mutander'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>KL/CH/KO</Probe>
         <Merkmale>
@@ -2835,7 +2835,7 @@
           <Variante>permanente Verwandlung</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Sanftmut'>
+      <Zauber name='Sanftmut'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>MU/CH/CH</Probe>
         <Merkmale>
@@ -2850,7 +2850,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Sapefacta Zauberschwamm'>
+      <Zauber name='Sapefacta Zauberschwamm'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/CH/FF</Probe>
         <Merkmale>
@@ -2865,7 +2865,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Satuarias Herrlichkeit'>
+      <Zauber name='Satuarias Herrlichkeit'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>IN/CH/CH</Probe>
         <Merkmale>
@@ -2879,7 +2879,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Schabernack'>
+      <Zauber name='Schabernack'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>KL/IN/CH</Probe>
         <Merkmale>
@@ -2889,7 +2889,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Schadenszauber bannen'>
+      <Zauber name='Schadenszauber bannen'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/IN/KO</Probe>
         <Merkmale>
@@ -2904,7 +2904,7 @@
           <Variante>Zone</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Schelmenkleister'>
+      <Zauber name='Schelmenkleister'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>IN/GE/FF</Probe>
         <Merkmale>
@@ -2915,7 +2915,7 @@
           <Variante>Schelmenschleim</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Schelmenlaune'>
+      <Zauber name='Schelmenlaune'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/IN/CH</Probe>
         <Merkmale>
@@ -2923,7 +2923,7 @@
         </Merkmale>
         <Varianten />
       </Zauber>
-      <Zauber ID='Schelmenmaske'>
+      <Zauber name='Schelmenmaske'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>IN/CH/GE</Probe>
         <Merkmale>
@@ -2931,7 +2931,7 @@
         </Merkmale>
         <Varianten />
       </Zauber>
-      <Zauber ID='Schelmenrausch'>
+      <Zauber name='Schelmenrausch'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>IN/CH/CH</Probe>
         <Merkmale>
@@ -2941,7 +2941,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Schleier der Unwissenheit'>
+      <Zauber name='Schleier der Unwissenheit'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>KL/KL/FF</Probe>
         <Merkmale>
@@ -2955,7 +2955,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Schwarz und Rot'>
+      <Zauber name='Schwarz und Rot'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/CH/KO</Probe>
         <Merkmale>
@@ -2970,7 +2970,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Schwarzer Schrecken'>
+      <Zauber name='Schwarzer Schrecken'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/IN/CH</Probe>
         <Merkmale>
@@ -2985,7 +2985,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Seelentier erkennen'>
+      <Zauber name='Seelentier erkennen'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>IN/IN/CH</Probe>
         <Merkmale>
@@ -2998,7 +2998,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Seelenwanderung'>
+      <Zauber name='Seelenwanderung'>
         <Komplexitaet>F</Komplexitaet>
         <Probe>MU/CH/KO</Probe>
         <Merkmale>
@@ -3015,7 +3015,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Seidenweich Schuppengleich'>
+      <Zauber name='Seidenweich Schuppengleich'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>IN/FF/FF</Probe>
         <Merkmale>
@@ -3025,7 +3025,7 @@
           <Variante>Zähneknirschen</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Seidenzunge Elfenwort'>
+      <Zauber name='Seidenzunge Elfenwort'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>KL/IN/CH</Probe>
         <Merkmale>
@@ -3037,7 +3037,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Sensattacco Meisterstreich'>
+      <Zauber name='Sensattacco Meisterstreich'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/IN/GE</Probe>
         <Merkmale>
@@ -3052,7 +3052,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Sensibar Empathicus'>
+      <Zauber name='Sensibar Empathicus'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/IN/CH</Probe>
         <Merkmale>
@@ -3070,7 +3070,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Serpentialis Schlangenleib'>
+      <Zauber name='Serpentialis Schlangenleib'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/CH/GE</Probe>
         <Merkmale>
@@ -3086,7 +3086,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Silentium'>
+      <Zauber name='Silentium'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>KL/IN/CH</Probe>
         <Merkmale>
@@ -3099,7 +3099,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Sinesigil unerkannt'>
+      <Zauber name='Sinesigil unerkannt'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>KL/IN/FF</Probe>
         <Merkmale>
@@ -3112,7 +3112,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Skelettarius'>
+      <Zauber name='Skelettarius'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/MU/CH</Probe>
         <Merkmale>
@@ -3126,7 +3126,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Solidirid Weg aus Licht'>
+      <Zauber name='Solidirid Weg aus Licht'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>IN/KO/KK</Probe>
         <Merkmale>
@@ -3144,7 +3144,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Somnigravis tiefer Schlaf'>
+      <Zauber name='Somnigravis tiefer Schlaf'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>KL/CH/CH</Probe>
         <Merkmale>
@@ -3159,7 +3159,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Spinnenlauf'>
+      <Zauber name='Spinnenlauf'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>IN/GE/KK</Probe>
         <Merkmale>
@@ -3174,7 +3174,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Spurlos Trittlos'>
+      <Zauber name='Spurlos Trittlos'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>IN/GE/GE</Probe>
         <Merkmale>
@@ -3188,7 +3188,7 @@
           <Variante>Zielobjekt andere Person</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Standfest Katzengleich'>
+      <Zauber name='Standfest Katzengleich'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>IN/GE/FF</Probe>
         <Merkmale>
@@ -3199,7 +3199,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Staub wandle!'>
+      <Zauber name='Staub wandle!'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>MU/KL/CH</Probe>
         <Merkmale>
@@ -3207,7 +3207,7 @@
         </Merkmale>
         <Varianten />
       </Zauber>
-      <Zauber ID='Stein wandle!'>
+      <Zauber name='Stein wandle!'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>MU/CH/KK</Probe>
         <Merkmale>
@@ -3216,7 +3216,7 @@
         </Merkmale>
         <Varianten />
       </Zauber>
-      <Zauber ID='Stillstand'>
+      <Zauber name='Stillstand'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>MU/IN/GE</Probe>
         <Merkmale>
@@ -3232,7 +3232,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Sumus Elixiere'>
+      <Zauber name='Sumus Elixiere'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>IN/CH/FF</Probe>
         <Merkmale>
@@ -3245,7 +3245,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Tauschrausch'>
+      <Zauber name='Tauschrausch'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>IN/FF/KO</Probe>
         <Merkmale>
@@ -3255,7 +3255,7 @@
           <Variante>Reichweite</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Tempus Stasis'>
+      <Zauber name='Tempus Stasis'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>MU/KL/KK</Probe>
         <Merkmale>
@@ -3263,7 +3263,7 @@
         </Merkmale>
         <Varianten />
       </Zauber>
-      <Zauber ID='Tiere besprechen'>
+      <Zauber name='Tiere besprechen'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/IN/CH</Probe>
         <Merkmale>
@@ -3279,7 +3279,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Tiergedanken'>
+      <Zauber name='Tiergedanken'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/IN/CH</Probe>
         <Merkmale>
@@ -3295,7 +3295,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Tlalucs Odem Pestgestank'>
+      <Zauber name='Tlalucs Odem Pestgestank'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/IN/GE</Probe>
         <Merkmale>
@@ -3310,7 +3310,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Totes handle!'>
+      <Zauber name='Totes handle!'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/CH/KO</Probe>
         <Merkmale>
@@ -3322,7 +3322,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Transformatio Formgestalt'>
+      <Zauber name='Transformatio Formgestalt'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>KL/FF/KK</Probe>
         <Merkmale>
@@ -3338,7 +3338,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Transmutare Körperform'>
+      <Zauber name='Transmutare Körperform'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>CH/GE/KO</Probe>
         <Merkmale>
@@ -3350,7 +3350,7 @@
           <Variante>Neues Leben</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Transversalis Teleport'>
+      <Zauber name='Transversalis Teleport'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>KL/IN/KO</Probe>
         <Merkmale>
@@ -3365,7 +3365,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Traumgestalt'>
+      <Zauber name='Traumgestalt'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>IN/CH/CH</Probe>
         <Merkmale>
@@ -3381,7 +3381,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Unberührt von Satinav'>
+      <Zauber name='Unberührt von Satinav'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/FF/KO</Probe>
         <Merkmale>
@@ -3394,7 +3394,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Unitatio Geistesbund'>
+      <Zauber name='Unitatio Geistesbund'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>IN/CH/KO</Probe>
         <Merkmale>
@@ -3407,7 +3407,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Unsichtbarer Jäger'>
+      <Zauber name='Unsichtbarer Jäger'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>IN/FF/GE</Probe>
         <Merkmale>
@@ -3419,7 +3419,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Veränderung aufheben'>
+      <Zauber name='Veränderung aufheben'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>KL/IN/KO</Probe>
         <Merkmale>
@@ -3434,7 +3434,7 @@
           <Variante>Zone</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Verschwindibus'>
+      <Zauber name='Verschwindibus'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>IN/CH/GE</Probe>
         <Merkmale>
@@ -3445,7 +3445,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Verständigung stören'>
+      <Zauber name='Verständigung stören'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/KL/IN</Probe>
         <Merkmale>
@@ -3462,7 +3462,7 @@
           <Variante>Zone</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Verwandlung beenden'>
+      <Zauber name='Verwandlung beenden'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>KL/CH/FF</Probe>
         <Merkmale>
@@ -3477,7 +3477,7 @@
           <Variante>Zone</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Vipernblick'>
+      <Zauber name='Vipernblick'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>MU/MU/CH</Probe>
         <Merkmale>
@@ -3490,7 +3490,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Visibili Vanitar'>
+      <Zauber name='Visibili Vanitar'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/IN/GE</Probe>
         <Merkmale>
@@ -3503,7 +3503,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Vocolimbo hohler Klang'>
+      <Zauber name='Vocolimbo hohler Klang'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>KL/CH/FF</Probe>
         <Merkmale>
@@ -3518,7 +3518,7 @@
           <Variante>Zeitversetzt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Vogelzwitschern Glockenspiel'>
+      <Zauber name='Vogelzwitschern Glockenspiel'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>MU/IN/GE</Probe>
         <Merkmale>
@@ -3535,7 +3535,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Wand aus Dornen'>
+      <Zauber name='Wand aus Dornen'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/KL/CH</Probe>
         <Merkmale>
@@ -3549,7 +3549,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Wand aus Erz'>
+      <Zauber name='Wand aus Erz'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/KL/CH</Probe>
         <Merkmale>
@@ -3563,7 +3563,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Wand aus Flammen'>
+      <Zauber name='Wand aus Flammen'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/KL/CH</Probe>
         <Merkmale>
@@ -3577,7 +3577,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Wand aus Luft'>
+      <Zauber name='Wand aus Luft'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/KL/CH</Probe>
         <Merkmale>
@@ -3591,7 +3591,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Warmes Blut'>
+      <Zauber name='Warmes Blut'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>MU/IN/IN</Probe>
         <Merkmale>
@@ -3605,7 +3605,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Wasseratem'>
+      <Zauber name='Wasseratem'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/KL/KO</Probe>
         <Merkmale>
@@ -3620,7 +3620,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Wasserwand'>
+      <Zauber name='Wasserwand'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/KL/CH</Probe>
         <Merkmale>
@@ -3634,7 +3634,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Weiches erstarre!'>
+      <Zauber name='Weiches erstarre!'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/KL/KK</Probe>
         <Merkmale>
@@ -3647,7 +3647,7 @@
           <Variante>spezielle Form</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Weihrauchwolke Wohlgeruch'>
+      <Zauber name='Weihrauchwolke Wohlgeruch'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>IN/CH/FF</Probe>
         <Merkmale>
@@ -3664,7 +3664,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Weiße Mähn und goldener Huf'>
+      <Zauber name='Weiße Mähn und goldener Huf'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>KL/IN/CH</Probe>
         <Merkmale>
@@ -3672,7 +3672,7 @@
         </Merkmale>
         <Varianten />
       </Zauber>
-      <Zauber ID='Weisheit der Bäume '>
+      <Zauber name='Weisheit der Bäume '>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/IN/KO</Probe>
         <Merkmale>
@@ -3687,7 +3687,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Wellenlauf'>
+      <Zauber name='Wellenlauf'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/GE/GE</Probe>
         <Merkmale>
@@ -3705,7 +3705,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Wettermeisterschaft'>
+      <Zauber name='Wettermeisterschaft'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>MU/CH/GE</Probe>
         <Merkmale>
@@ -3721,7 +3721,7 @@
           <Variante>Zone</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Widerwille Ungemach'>
+      <Zauber name='Widerwille Ungemach'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/IN/GE</Probe>
         <Merkmale>
@@ -3736,7 +3736,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Windhose'>
+      <Zauber name='Windhose'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/IN/KK</Probe>
         <Merkmale>
@@ -3751,7 +3751,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Windstille '>
+      <Zauber name='Windstille '>
         <Komplexitaet>C</Komplexitaet>
         <Probe>KL/CH/KK</Probe>
         <Merkmale>
@@ -3767,7 +3767,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Wipfellauf'>
+      <Zauber name='Wipfellauf'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/IN/GE</Probe>
         <Merkmale>
@@ -3784,7 +3784,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Xenographus Schriftenkunde'>
+      <Zauber name='Xenographus Schriftenkunde'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>KL/KL/IN</Probe>
         <Merkmale>
@@ -3797,7 +3797,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Zagibu Ubigaz'>
+      <Zauber name='Zagibu Ubigaz'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>IN/CH/FF</Probe>
         <Merkmale>
@@ -3806,7 +3806,7 @@
         </Merkmale>
         <Varianten />
       </Zauber>
-      <Zauber ID='Zappenduster'>
+      <Zauber name='Zappenduster'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>IN/IN/FF</Probe>
         <Merkmale>
@@ -3815,7 +3815,7 @@
         </Merkmale>
         <Varianten />
       </Zauber>
-      <Zauber ID='Zauberklinge Geisterspeer'>
+      <Zauber name='Zauberklinge Geisterspeer'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>KL/FF/KO</Probe>
         <Merkmale>
@@ -3829,7 +3829,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Zaubernahrung Hungerbann'>
+      <Zauber name='Zaubernahrung Hungerbann'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/MU/KO</Probe>
         <Merkmale>
@@ -3846,7 +3846,7 @@
           <Variante>Wirkungsdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Zauberwesen der Natur'>
+      <Zauber name='Zauberwesen der Natur'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>MU/IN/CH</Probe>
         <Merkmale>
@@ -3859,7 +3859,7 @@
           <Variante>Zauberdauer</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Zauberzwang'>
+      <Zauber name='Zauberzwang'>
         <Komplexitaet>E</Komplexitaet>
         <Probe>MU/CH/CH</Probe>
         <Merkmale>
@@ -3875,7 +3875,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Zorn der Elemente'>
+      <Zauber name='Zorn der Elemente'>
         <Komplexitaet>C</Komplexitaet>
         <Probe>MU/CH/KO</Probe>
         <Merkmale>
@@ -3890,7 +3890,7 @@
           <Variante>alle Astralenergie verwenden</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Zunge lähmen'>
+      <Zauber name='Zunge lähmen'>
         <Komplexitaet>B</Komplexitaet>
         <Probe>MU/CH/FF</Probe>
         <Merkmale>
@@ -3905,7 +3905,7 @@
           <Variante>Zielobjekt</Variante>
         </Varianten>
       </Zauber>
-      <Zauber ID='Zwingtanz'>
+      <Zauber name='Zwingtanz'>
         <Komplexitaet>D</Komplexitaet>
         <Probe>MU/KL/CH</Probe>
         <Merkmale>

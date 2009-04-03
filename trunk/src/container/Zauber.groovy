@@ -12,13 +12,13 @@ package container
  *
  */
 public class Zauber {
-	String id
+	String name
 	String komplexitaet
 	String[] probe
 	String[] merkmale
 	String[] varianten
 	
 	public String toString() {
-		return "ID = $id; Komplexität = $komplexitaet; Probe = $probe; Merkmale = $merkmale; Varianten = $varianten"
+		return "Name = $name; Komplexität = $komplexitaet; Probe = $probe; Merkmale = $merkmale; Varianten = $varianten"
 	}
 }

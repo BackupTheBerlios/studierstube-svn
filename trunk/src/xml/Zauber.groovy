@@ -16,14 +16,15 @@ public class Zauber {
 	
 	public void load() {
 		def xdiml = new XmlSlurper().parse(new File(this.class.getResource('zauber.xml').toURI()))
-		def zaubersprueche = xdiml.children().children()  // ugly
+		println "Reading XML format version " + xdiml.children().@version  // debug() ?
+		def zaubersprueche = xdiml.children().children()  // ugly; also ignores versions
 		zaubersprueche.children().each { zauber ->
 			def merkmale = []
 			zauber.Merkmale.children().each { merkmale.add(it) }
 			def varianten = []
 			zauber.Varianten.children().each { varianten.add(it) }
 			def z = new container.Zauber(
-					id:zauber.@ID,
+					name:zauber.@name,
 					komplexitaet:zauber.Komplexitaet,
 					probe:zauber.Probe.toString().split("/"),
 					merkmale:merkmale,
@@ -37,7 +38,7 @@ public class Zauber {
 		mb.XDIML(version:"1.2") {
 			Studierstube(version:"0.1") { // TODO: global variable
 				Zaubersprueche {
-					liste.each { zauber -> Zauber(ID:zauber.getId()) {
+					liste.each { zauber -> Zauber(name:zauber.getName()) { // sort?
 						Komplexitaet(zauber.getKomplexitaet())
 						Probe(zauber.getProbe().join("/"))
 						Merkmale() {
