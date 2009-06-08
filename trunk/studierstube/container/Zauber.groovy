@@ -11,14 +11,14 @@ package studierstube.container
  * @author twel
  *
  */
-public class Zauber {
+class Zauber {
 	String name
 	String komplexitaet
 	String[] probe
 	String[] merkmale
 	String[] varianten
 	
-	public String toString() {
+	String toString() {
 		return "Name = $name; Komplexität = $komplexitaet; Probe = $probe; Merkmale = $merkmale; Varianten = $varianten"
 	}
 }

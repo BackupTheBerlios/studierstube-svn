@@ -11,10 +11,10 @@ package studierstube.xml
  * @author twel
  *
  */
-public class Zauber {
+class Zauber {
 	def list = []
 	
-	public void load() {
+	void load() {
 		def xdiml = new XmlSlurper().parse(new File(this.class.getResource('zauber.xml').toURI()))  // this relative path does not work in .jar
 		println "Reading XML format version " + xdiml.Studierstube.@version  // debug() ?
 		xdiml.Studierstube.Zaubersprueche.children().each { zauber ->
@@ -32,7 +32,7 @@ public class Zauber {
 		}
 	}
 	
-	public void write() {
+	void write() {
 		def mb = new groovy.xml.MarkupBuilder(new IndentPrinter(new PrintWriter("/tmp/test.xml")))
 		mb.XDIML(version:"1.2") {
 			Studierstube(version:core.Global.VERSION) {
