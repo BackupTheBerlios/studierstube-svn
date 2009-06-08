@@ -1,4 +1,4 @@
 package studierstube.scripts
 
-def z = new studierstube.xml.Zauber()
-z.load()
+def frame = new studierstube.scripts.NewJFrame()
+frame.show()

@@ -15,7 +15,7 @@ public class Zauber {
 	def list = []
 	
 	public void load() {
-		def xdiml = new XmlSlurper().parse(new File(this.class.getResource('zauber.xml').toURI()))
+		def xdiml = new XmlSlurper().parse(new File(this.class.getResource('zauber.xml').toURI()))  // this relative path does not work in .jar
 		println "Reading XML format version " + xdiml.Studierstube.@version  // debug() ?
 		xdiml.Studierstube.Zaubersprueche.children().each { zauber ->
 			def merkmale = []
