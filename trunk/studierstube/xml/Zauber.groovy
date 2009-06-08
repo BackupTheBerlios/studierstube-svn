@@ -5,7 +5,7 @@
 * of the (3-clause) BSD license. See LICENSE.txt for details. *
 **************************************************************/
 
-package xml
+package studierstube.xml
 
 /**
  * @author twel
@@ -22,7 +22,7 @@ public class Zauber {
 			zauber.Merkmale.children().each { merkmale.add(it) }
 			def varianten = []
 			zauber.Varianten.children().each { varianten.add(it) }
-			def z = new container.Zauber(
+			def z = new studierstube.container.Zauber(
 					name:zauber.@name,
 					komplexitaet:zauber.Komplexitaet,
 					probe:zauber.Probe.toString().split("/"),

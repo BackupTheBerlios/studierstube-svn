@@ -5,7 +5,7 @@
 * of the (3-clause) BSD license. See LICENSE.txt for details. *
 **************************************************************/
 
-package container
+package studierstube.container
 
 /**
  * @author twel

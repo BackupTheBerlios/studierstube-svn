@@ -1,5 +1,4 @@
-package tests
+package studierstube.scripts
 
-def z = new xml.Zauber()
+def z = new studierstube.xml.Zauber()
 z.load()
-z.write()

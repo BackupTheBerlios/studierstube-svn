@@ -5,7 +5,7 @@
 * of the (3-clause) BSD license. See LICENSE.txt for details. *
 **************************************************************/
 
-package core
+package studierstube.core
 
 /**
  * @author twel
