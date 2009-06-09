@@ -1,4 +1,5 @@
 package studierstube.scripts
 
-def frame = new studierstube.scripts.NewJFrame()
-frame.show()
+def z = studierstube.xml.Zauber()
+z.load()
+//println z.list[0]
