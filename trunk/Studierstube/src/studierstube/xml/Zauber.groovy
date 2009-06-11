@@ -13,9 +13,22 @@ package studierstube.xml
  */
 class Zauber {
     studierstube.container.Zauber[] load() {
+        def input = new File(getUserFile())
+        if (input.canRead()) {
+            println "Lade Zauber aus $input ..."
+        }
+        else {
+            input = this.class.getResourceAsStream('zauber.xml')
+            println "Lade Zauber aus JAR-Datei ..."
+            if (input == null) {
+                println "ERROR cannot load"
+                return null
+            }
+        }
+        
+        def xdiml = new XmlSlurper().parse(input)
+        println "Studierstube XML-Format ist Version " + xdiml.Studierstube.@version
         def list = []
-        def xdiml = new XmlSlurper().parse(new File(this.class.getResource('zauber.xml').toURI()))  // this relative path does not work in .jar
-        println "Reading XML format version " + xdiml.Studierstube.@version  // debug() ?
         xdiml.Studierstube.Zaubersprueche.children().each { zauber ->
             def merkmale = []
             zauber.Merkmale.children().each { merkmale.add(it) }
@@ -33,7 +46,17 @@ class Zauber {
     }
 
     void write(studierstube.container.Zauber[] list) {
-        def mb = new groovy.xml.MarkupBuilder(new IndentPrinter(new PrintWriter("/tmp/test.xml")))
+        def dir = new File(getUserDirectory())
+        if (!dir.isDirectory()) {
+            println "TODO mkdir"
+            dir.mkdir()
+        }
+        def file = new File(getUserFile())
+        if (file.exists()) {
+            println "TODO overwrite"
+        }
+
+        def mb = new groovy.xml.MarkupBuilder(new IndentPrinter(new PrintWriter(file)))
         mb.XDIML(version:"1.2") {
             Studierstube(version:studierstube.core.Global.VERSION) {
                 Zaubersprueche {
@@ -46,11 +69,23 @@ class Zauber {
                             Varianten() {
                                 zauber.getVarianten().sort().each { Variante(it) }
                             }
-                        } }
+                    } }
                 }
             }
         }
     }
 
+    String getUserDirectory() {
+        def home = System.getProperty("user.home")
+        def subdir = "/.studierstube/"
+        if (System.getProperty("os.name").startsWith("Windows")) {
+            subdir = "\\Studierstube\\"
+        }
+        return home + subdir
+    }
+
+    String getUserFile() {
+        return getUserDirectory() + "zauber.xml"
+    }
 }
 
