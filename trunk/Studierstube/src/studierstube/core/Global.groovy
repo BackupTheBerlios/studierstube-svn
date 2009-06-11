@@ -18,7 +18,7 @@ class Global {
     static final String AUTHOR = "Stefan Holzmüller"
     static final String EMAIL = "twelwan@gmx.de"
 
-    static def mainWindow = null
+    public static def mainWindow = null
     public static def zauber = null
 
     static startup() {

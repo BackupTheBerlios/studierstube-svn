@@ -21,7 +21,7 @@ class Zauber {
             input = this.class.getResourceAsStream('zauber.xml')
             println "Lade Zauber aus JAR-Datei ..."
             if (input == null) {
-                println "ERROR cannot load"
+                studierstube.gui.Popup.showErrorMessage("Zauber konnten nicht geladen werden")
                 return null
             }
         }
@@ -48,12 +48,12 @@ class Zauber {
     void write(studierstube.container.Zauber[] list) {
         def dir = new File(getUserDirectory())
         if (!dir.isDirectory()) {
-            println "TODO mkdir"
             dir.mkdir()
         }
         def file = new File(getUserFile())
         if (file.exists()) {
-            println "TODO overwrite"
+            if (!studierstube.gui.Popup.showConfirmDialog("$file überschreiben?"))
+                return  // no nothing
         }
 
         def mb = new groovy.xml.MarkupBuilder(new IndentPrinter(new PrintWriter(file)))
