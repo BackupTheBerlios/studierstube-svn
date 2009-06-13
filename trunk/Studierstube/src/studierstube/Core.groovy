@@ -19,16 +19,16 @@ class Core {
     static final String AUTHOR = "Stefan Holzmüller"
     static final String EMAIL = "twelwan@gmx.de"
 
-    public static def mainWindow = null
+    static def mainWindow = null
 
-    static startup() {
+    Core() {
         new studierstube.xml.Spells().load()
 
         String program = NAME + " " + VERSION
         mainWindow = new studierstube.gui.MainViewFrame()
         mainWindow.setTitle(program)
         mainWindow.setVisible(true)  // in EDT?
-        mainWindow.setStatusText(program + " gestartet")
+        setStatusText(program + " gestartet")
     }
 
     static shutdown() {
