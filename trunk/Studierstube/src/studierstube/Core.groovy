@@ -22,8 +22,7 @@ class Core {
     public static def mainWindow = null
 
     static startup() {
-        def xmlSpells = new studierstube.xml.Spells()
-        studierstube.model.Spell.list = xmlSpells.load()
+        new studierstube.xml.Spells().load()
 
         String program = NAME + " " + VERSION
         mainWindow = new studierstube.gui.MainViewFrame()

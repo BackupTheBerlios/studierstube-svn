@@ -16,6 +16,8 @@ package studierstube.model
 class Spell {
 
     static def list = []
+    static def uniqueModifications = []
+    static def uniqueTraits = []
 
 	String name
 	String complexity
@@ -30,8 +32,4 @@ class Spell {
                 Merkmale = $traits"
 	}
 
-    static void saveXml() {
-        def xmlSpells = new studierstube.xml.Spells()
-        xmlSpells.write(list)
-    }
 }

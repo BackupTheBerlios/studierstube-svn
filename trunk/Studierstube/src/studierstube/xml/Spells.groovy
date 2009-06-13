@@ -12,7 +12,7 @@ package studierstube.xml
  * @author twel
  */
 class Spells {
-	studierstube.model.Spell[] load() {
+	void load() {
         def input = new File(getUserFile())
         if (input.canRead()) {
             println "Lade Zauber aus $input ..."
@@ -28,7 +28,7 @@ class Spells {
 
         def xdiml = new XmlSlurper().parse(input)
         println "Studierstube XML-Format ist Version " + xdiml.Studierstube.@version
-        def list = []
+        def spells = []
         xdiml.Studierstube.Zaubersprueche.children().each { zauber ->
             def merkmale = []
             zauber.Merkmale.children().each { merkmale.add(it) }
@@ -40,12 +40,22 @@ class Spells {
                 attributes:zauber.Probe.toString().split("/"),
                 traits:merkmale,
                 variants:varianten)
-            list.add(s)
+            spells.add(s)
         }
-        return list
+        studierstube.model.Spell.list = spells
+
+        def mods, traits = []
+        spells.collect {
+            it.getModifications().each {mods += it}
+            it.getTraits().each {traits += it}
+        }
+        studierstube.model.Spell.uniqueModifications = mods?.unique()?.sort()
+        studierstube.model.Spell.uniqueTraits = traits?.unique()?.sort()
     }
 
-    void write(studierstube.model.Spell[] list) {
+    void write() {
+        def spells = studierstube.model.Spell.list
+
         def dir = new File(getUserDirectory())
         if (!dir.isDirectory()) {
             dir.mkdir()
@@ -60,7 +70,7 @@ class Spells {
         mb.XDIML(version:"1.2") {
             Studierstube(version:studierstube.Core.VERSION) {
                 Zaubersprueche {
-                    list.each { spell -> Zauber(name:spell.getName()) { // sort?
+                    spells.each { spell -> Zauber(name:spell.getName()) { // sort?
                             Komplexitaet(spell.getComplexity())
                             Probe(spell.getAttributes().join("/"))
                             Merkmale() {

@@ -22,7 +22,7 @@ public class MainViewFrame extends javax.swing.JFrame {
     /** Creates new form MainViewFrame */
     public MainViewFrame() {
         initComponents();
-        mainPanel.add(new ManageSpellsViewPanel(), "ManageZauber");
+        mainPanel.add(new ManageSpellsViewPanel(), "ManageSpells");
     }
 
     public void setStatusText(String status) {
@@ -148,7 +148,7 @@ public class MainViewFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_menuManageZauberActionPerformed
 
     private void menuProgramSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuProgramSaveActionPerformed
-        studierstube.model.Spell.saveXml();  // refactor: model.AbstractModel...
+        new studierstube.xml.Spells().write();  // TODO refactor: not only spells
     }//GEN-LAST:event_menuProgramSaveActionPerformed
 
     /**
