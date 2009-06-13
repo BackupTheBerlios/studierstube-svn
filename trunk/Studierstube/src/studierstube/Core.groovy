@@ -5,13 +5,14 @@
  * of the (3-clause) BSD license. See LICENSE.txt for details. *
  ***************************************************************/
 
-package studierstube.core
+package studierstube
 
 /**
  *
  * @author twel
  */
-class Global {
+class Core {
+
     static final String NAME = "Studierstube"
     static final String VERSION = "0.1"
     static final String COPYRIGHT = "Copyright (c) 2005-2009"
@@ -19,14 +20,13 @@ class Global {
     static final String EMAIL = "twelwan@gmx.de"
 
     public static def mainWindow = null
-    public static def zauber = null
 
     static startup() {
-        def xmlZauber = new studierstube.xml.Zauber()
-        zauber = xmlZauber.load()
+        def xmlSpells = new studierstube.xml.Spells()
+        studierstube.model.Spell.list = xmlSpells.load()
 
         String program = NAME + " " + VERSION
-        mainWindow = new studierstube.gui.MainWindow()
+        mainWindow = new studierstube.gui.MainViewFrame()
         mainWindow.setTitle(program)
         mainWindow.setVisible(true)  // in EDT?
         mainWindow.setStatusText(program + " gestartet")
@@ -36,17 +36,9 @@ class Global {
         System.exit(0)
     }
 
-    static save() {
-        def xmlZauber = new studierstube.xml.Zauber()
-        xmlZauber.write(zauber)
-    }
-
     static setStatusText(String status) {
         mainWindow.setStatusText(status)
     }
 
-    static String[] getZauberNames() {
-        return zauber.collect { it.getName() }
-    }
 }
 

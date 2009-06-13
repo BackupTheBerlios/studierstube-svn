@@ -14,7 +14,7 @@ package studierstube.gui
 class Popup {
 	static boolean showConfirmDialog(String message) {
         int n = javax.swing.JOptionPane.showConfirmDialog(
-                studierstube.core.Global.mainWindow,
+                studierstube.Core.mainWindow,
                 message,
                 "Fortfahren?",
                 javax.swing.JOptionPane.OK_CANCEL_OPTION);
@@ -24,7 +24,7 @@ class Popup {
 
     static void showErrorMessage(String message) {
         int n = javax.swing.JOptionPane.showMessageDialog(
-                studierstube.core.Global.mainWindow,
+                studierstube.Core.mainWindow,
                 message,
                 "Fehler",
                 javax.swing.JOptionPane.ERROR_MESSAGE);

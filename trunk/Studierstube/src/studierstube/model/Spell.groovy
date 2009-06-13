@@ -5,20 +5,33 @@
  * of the (3-clause) BSD license. See LICENSE.txt for details. *
  ***************************************************************/
 
-package studierstube.container
+package studierstube.model
+
+//import groovy.beans.Bindable (req. groovy 1.6.2)
 
 /**
  *
  * @author twel
  */
 class Spell {
+
+    static def list = []
+
 	String name
 	String complexity
 	String[] attributes
-	String[] traits
+    String[] modifications
 	String[] variants
+    String[] traits
 
 	String toString() {
-		return "Name = $name; Komplexität = $complexity; Probe = $attributes; Merkmale = $traits; Varianten = $variants"
+		return "Name = $name; Komplexität = $complexity; Probe = $attributes; \
+                Modifikationen = $modifications; Varianten = $variants; \
+                Merkmale = $traits"
 	}
+
+    static void saveXml() {
+        def xmlSpells = new studierstube.xml.Spells()
+        xmlSpells.write(list)
+    }
 }

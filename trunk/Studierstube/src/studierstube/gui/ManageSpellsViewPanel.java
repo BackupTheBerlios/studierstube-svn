@@ -6,7 +6,7 @@
  ***************************************************************/
 
 /*
- * ManageZauberPanel.java
+ * ManageSpellsViewPanel.java
  *
  * Created on Jun 11, 2009, 12:16:41 PM
  */
@@ -17,10 +17,10 @@ package studierstube.gui;
  *
  * @author twel
  */
-public class ManageZauberPanel extends javax.swing.JPanel {
+public class ManageSpellsViewPanel extends javax.swing.JPanel {
 
-    /** Creates new form ManageZauberPanel */
-    public ManageZauberPanel() {
+    /** Creates new form ManageSpellsViewPanel */
+    public ManageSpellsViewPanel() {
         initComponents();
     }
 
@@ -43,7 +43,6 @@ public class ManageZauberPanel extends javax.swing.JPanel {
 
         listZauberliste.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
         jScrollPane1.setViewportView(listZauberliste);
-        listZauberliste.setListData(studierstube.core.Global.getZauberNames());
 
         javax.swing.GroupLayout panelZauberlisteLayout = new javax.swing.GroupLayout(panelZauberliste);
         panelZauberliste.setLayout(panelZauberlisteLayout);

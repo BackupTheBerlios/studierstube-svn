@@ -12,7 +12,7 @@ package studierstube.xml
  * @author twel
  */
 class Spells {
-	studierstube.container.Spell[] load() {
+	studierstube.model.Spell[] load() {
         def input = new File(getUserFile())
         if (input.canRead()) {
             println "Lade Zauber aus $input ..."
@@ -34,7 +34,7 @@ class Spells {
             zauber.Merkmale.children().each { merkmale.add(it) }
             def varianten = []
             zauber.Varianten.children().each { varianten.add(it) }
-            def s = new studierstube.container.Spell(
+            def s = new studierstube.model.Spell(
                 name:zauber.@name,
                 complexity:zauber.Komplexitaet,
                 attributes:zauber.Probe.toString().split("/"),
@@ -45,20 +45,20 @@ class Spells {
         return list
     }
 
-    void write(studierstube.container.Spell[] list) {
+    void write(studierstube.model.Spell[] list) {
         def dir = new File(getUserDirectory())
         if (!dir.isDirectory()) {
             dir.mkdir()
         }
         def file = new File(getUserFile())
-        if (file.exists()) {
+        if (file.canWrite()) {
             if (!studierstube.gui.Popup.showConfirmDialog("$file überschreiben?"))
                 return  // no nothing
         }
 
         def mb = new groovy.xml.MarkupBuilder(new IndentPrinter(new PrintWriter(file)))
         mb.XDIML(version:"1.2") {
-            Studierstube(version:studierstube.core.Global.VERSION) {
+            Studierstube(version:studierstube.Core.VERSION) {
                 Zaubersprueche {
                     list.each { spell -> Zauber(name:spell.getName()) { // sort?
                             Komplexitaet(spell.getComplexity())
@@ -67,7 +67,7 @@ class Spells {
                                 spell.getTraits().sort().each { Merkmal(it) }
                             }
                             Varianten() {
-                                zauber.getVariants().sort().each { Variante(it) }
+                                spell.getVariants().sort().each { Variante(it) }
                             }
                     } }
                 }

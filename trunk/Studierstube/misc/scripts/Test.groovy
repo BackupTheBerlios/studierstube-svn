@@ -5,20 +5,6 @@
  * of the (3-clause) BSD license. See LICENSE.txt for details. *
  ***************************************************************/
 
-package studierstube.container
+package scripts
 
-/**
- *
- * @author twel
- */
-class Zauber {
-	String name
-	String komplexitaet
-	String[] probe
-	String[] merkmale
-	String[] varianten
-
-	String toString() {
-		return "Name = $name; Komplexität = $komplexitaet; Probe = $probe; Merkmale = $merkmale; Varianten = $varianten"
-	}
-}
+println "hi"

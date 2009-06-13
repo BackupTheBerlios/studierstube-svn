@@ -6,7 +6,7 @@
 **************************************************************/
 
 /*
- * MainWindow.java
+ * MainViewFrame.java
  *
  * Created on Jun 9, 2009, 9:11:13 PM
  */
@@ -17,12 +17,12 @@ package studierstube.gui;
  *
  * @author twel
  */
-public class MainWindow extends javax.swing.JFrame {
+public class MainViewFrame extends javax.swing.JFrame {
 
-    /** Creates new form MainWindow */
-    public MainWindow() {
+    /** Creates new form MainViewFrame */
+    public MainViewFrame() {
         initComponents();
-        mainPanel.add(new ManageZauberPanel(), "ManageZauber");
+        mainPanel.add(new ManageSpellsViewPanel(), "ManageZauber");
     }
 
     public void setStatusText(String status) {
@@ -140,7 +140,7 @@ public class MainWindow extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void menuProgramQuitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuProgramQuitActionPerformed
-        studierstube.core.Global.shutdown();
+        studierstube.Core.shutdown();
     }//GEN-LAST:event_menuProgramQuitActionPerformed
 
     private void menuManageZauberActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuManageZauberActionPerformed
@@ -148,7 +148,7 @@ public class MainWindow extends javax.swing.JFrame {
     }//GEN-LAST:event_menuManageZauberActionPerformed
 
     private void menuProgramSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuProgramSaveActionPerformed
-        studierstube.core.Global.save();
+        studierstube.model.Spell.saveXml();  // refactor: model.AbstractModel...
     }//GEN-LAST:event_menuProgramSaveActionPerformed
 
     /**
@@ -157,7 +157,7 @@ public class MainWindow extends javax.swing.JFrame {
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new MainWindow().setVisible(true);
+                new MainViewFrame().setVisible(true);
             }
         });
     }
