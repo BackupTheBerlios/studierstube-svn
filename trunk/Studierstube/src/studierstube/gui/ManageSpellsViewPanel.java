@@ -22,6 +22,7 @@ public class ManageSpellsViewPanel extends javax.swing.JPanel {
     /** Creates new form ManageSpellsViewPanel */
     public ManageSpellsViewPanel() {
         initComponents();
+        listSpells.setListData(studierstube.model.Spell.getSpellList());
     }
 
     /** This method is called from within the constructor to
@@ -33,47 +34,238 @@ public class ManageSpellsViewPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        panelZauberliste = new javax.swing.JPanel();
-        labelZauberliste = new javax.swing.JLabel();
+        panelSpells = new javax.swing.JPanel();
+        labelSpells = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        listZauberliste = new javax.swing.JList();
-        panelZauberDetails = new javax.swing.JPanel();
+        listSpells = new javax.swing.JList();
+        jPanel1 = new javax.swing.JPanel();
+        panelSpellDetails = new javax.swing.JPanel();
+        labelSpellName = new javax.swing.JLabel();
+        labelSpellCheck = new javax.swing.JLabel();
+        jComboBox1 = new javax.swing.JComboBox();
+        jComboBox2 = new javax.swing.JComboBox();
+        jComboBox3 = new javax.swing.JComboBox();
+        labelSpellComplexity = new javax.swing.JLabel();
+        jComboBox4 = new javax.swing.JComboBox();
+        labelTraits = new javax.swing.JLabel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        listSpellTraits = new javax.swing.JList();
+        comboBoxSpellTraits = new javax.swing.JComboBox(studierstube.model.Spell.getUniqueTraits());
+        buttonSpellTraitsAdd = new javax.swing.JButton();
+        buttonSpellTraitsRemove = new javax.swing.JButton();
+        labelSpellModifications = new javax.swing.JLabel();
+        buttonSpellModificationsRemove = new javax.swing.JButton();
+        buttonSpellModificationsAdd = new javax.swing.JButton();
+        comboBoxSpellModifications = new javax.swing.JComboBox(studierstube.model.Spell.getUniqueTraits());
+        jScrollPane3 = new javax.swing.JScrollPane();
+        listSpellModifications = new javax.swing.JList();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        listSpellTraits2 = new javax.swing.JList();
+        comboBoxSpellTraits2 = new javax.swing.JComboBox(studierstube.model.Spell.getUniqueTraits());
+        buttonSpellTraitsAdd2 = new javax.swing.JButton();
+        buttonSpellTraitsRemove2 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
-        labelZauberliste.setText("Zauberliste");
+        labelSpells.setText("Zauberliste");
 
-        listZauberliste.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
-        jScrollPane1.setViewportView(listZauberliste);
+        listSpells.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
+        listSpells.addListSelectionListener(new javax.swing.event.ListSelectionListener() {
+            public void valueChanged(javax.swing.event.ListSelectionEvent evt) {
+                listSpellsValueChanged(evt);
+            }
+        });
+        jScrollPane1.setViewportView(listSpells);
 
-        javax.swing.GroupLayout panelZauberlisteLayout = new javax.swing.GroupLayout(panelZauberliste);
-        panelZauberliste.setLayout(panelZauberlisteLayout);
-        panelZauberlisteLayout.setHorizontalGroup(
-            panelZauberlisteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(panelZauberlisteLayout.createSequentialGroup()
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 255, Short.MAX_VALUE)
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 100, Short.MAX_VALUE)
+        );
+
+        javax.swing.GroupLayout panelSpellsLayout = new javax.swing.GroupLayout(panelSpells);
+        panelSpells.setLayout(panelSpellsLayout);
+        panelSpellsLayout.setHorizontalGroup(
+            panelSpellsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelSpellsLayout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(panelZauberlisteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 255, Short.MAX_VALUE)
-                    .addComponent(labelZauberliste))
+                .addGroup(panelSpellsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 267, Short.MAX_VALUE)
+                    .addGroup(panelSpellsLayout.createSequentialGroup()
+                        .addGroup(panelSpellsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(labelSpells, javax.swing.GroupLayout.Alignment.LEADING))
+                        .addContainerGap())))
+        );
+        panelSpellsLayout.setVerticalGroup(
+            panelSpellsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelSpellsLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(labelSpells)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 347, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
-        panelZauberlisteLayout.setVerticalGroup(
-            panelZauberlisteLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(panelZauberlisteLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(labelZauberliste)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 317, Short.MAX_VALUE)
-                .addContainerGap(81, Short.MAX_VALUE))
-        );
 
-        javax.swing.GroupLayout panelZauberDetailsLayout = new javax.swing.GroupLayout(panelZauberDetails);
-        panelZauberDetails.setLayout(panelZauberDetailsLayout);
-        panelZauberDetailsLayout.setHorizontalGroup(
-            panelZauberDetailsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 274, Short.MAX_VALUE)
+        labelSpellName.setText("Neuer Zauber");
+
+        labelSpellCheck.setText("Probe:");
+
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "MU", "KL", "IN", "CH", "FF", "GE", "KO", "KK" }));
+
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "MU", "KL", "IN", "CH", "FF", "GE", "KO", "KK" }));
+
+        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "MU", "KL", "IN", "CH", "FF", "GE", "KO", "KK" }));
+
+        labelSpellComplexity.setText("Komplexität:");
+
+        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "A", "B", "C", "D", "E", "F" }));
+
+        labelTraits.setText("Merkmale:");
+
+        listSpellTraits.setModel(new javax.swing.AbstractListModel() {
+            String[] strings = { "[leer]" };
+            public int getSize() { return strings.length; }
+            public Object getElementAt(int i) { return strings[i]; }
+        });
+        listSpellTraits.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
+        jScrollPane2.setViewportView(listSpellTraits);
+
+        buttonSpellTraitsAdd.setText("<< Hinzufügen");
+
+        buttonSpellTraitsRemove.setText(">> Entfernen");
+
+        labelSpellModifications.setText("Modifikationen:");
+
+        buttonSpellModificationsRemove.setText(">> Entfernen");
+
+        buttonSpellModificationsAdd.setText("<< Hinzufügen");
+
+        listSpellModifications.setModel(new javax.swing.AbstractListModel() {
+            String[] strings = { "[leer]" };
+            public int getSize() { return strings.length; }
+            public Object getElementAt(int i) { return strings[i]; }
+        });
+        listSpellModifications.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
+        jScrollPane3.setViewportView(listSpellModifications);
+
+        listSpellTraits2.setModel(new javax.swing.AbstractListModel() {
+            String[] strings = { "[leer]" };
+            public int getSize() { return strings.length; }
+            public Object getElementAt(int i) { return strings[i]; }
+        });
+        listSpellTraits2.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
+        jScrollPane4.setViewportView(listSpellTraits2);
+
+        buttonSpellTraitsAdd2.setText("<< Hinzufügen");
+
+        buttonSpellTraitsRemove2.setText(">> Entfernen");
+
+        jLabel1.setText("jLabel1");
+
+        javax.swing.GroupLayout panelSpellDetailsLayout = new javax.swing.GroupLayout(panelSpellDetails);
+        panelSpellDetails.setLayout(panelSpellDetailsLayout);
+        panelSpellDetailsLayout.setHorizontalGroup(
+            panelSpellDetailsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelSpellDetailsLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(panelSpellDetailsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(labelSpellName)
+                    .addGroup(panelSpellDetailsLayout.createSequentialGroup()
+                        .addComponent(labelSpellComplexity)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jComboBox4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(labelTraits)
+                    .addGroup(panelSpellDetailsLayout.createSequentialGroup()
+                        .addGroup(panelSpellDetailsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, panelSpellDetailsLayout.createSequentialGroup()
+                                .addComponent(labelSpellCheck)
+                                .addGap(12, 12, 12)
+                                .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(panelSpellDetailsLayout.createSequentialGroup()
+                                .addGroup(panelSpellDetailsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 157, Short.MAX_VALUE)
+                                    .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 157, Short.MAX_VALUE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
+                        .addGroup(panelSpellDetailsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(panelSpellDetailsLayout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jComboBox3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(buttonSpellTraitsAdd, javax.swing.GroupLayout.DEFAULT_SIZE, 160, Short.MAX_VALUE)
+                            .addComponent(buttonSpellTraitsRemove, javax.swing.GroupLayout.DEFAULT_SIZE, 160, Short.MAX_VALUE)
+                            .addComponent(buttonSpellModificationsAdd, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 160, Short.MAX_VALUE)
+                            .addComponent(buttonSpellModificationsRemove, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 160, Short.MAX_VALUE)
+                            .addComponent(comboBoxSpellTraits, javax.swing.GroupLayout.Alignment.TRAILING, 0, 160, Short.MAX_VALUE)
+                            .addComponent(comboBoxSpellModifications, javax.swing.GroupLayout.Alignment.TRAILING, 0, 160, Short.MAX_VALUE)))
+                    .addGroup(panelSpellDetailsLayout.createSequentialGroup()
+                        .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 157, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(panelSpellDetailsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(buttonSpellTraitsRemove2, javax.swing.GroupLayout.DEFAULT_SIZE, 160, Short.MAX_VALUE)
+                            .addComponent(buttonSpellTraitsAdd2, javax.swing.GroupLayout.DEFAULT_SIZE, 160, Short.MAX_VALUE)
+                            .addComponent(comboBoxSpellTraits2, javax.swing.GroupLayout.Alignment.TRAILING, 0, 160, Short.MAX_VALUE)))
+                    .addComponent(jLabel1)
+                    .addComponent(labelSpellModifications))
+                .addContainerGap())
         );
-        panelZauberDetailsLayout.setVerticalGroup(
-            panelZauberDetailsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 431, Short.MAX_VALUE)
+        panelSpellDetailsLayout.setVerticalGroup(
+            panelSpellDetailsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelSpellDetailsLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(labelSpellName)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(panelSpellDetailsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(labelSpellCheck)
+                    .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jComboBox3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(panelSpellDetailsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(labelSpellComplexity)
+                    .addComponent(jComboBox4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addComponent(labelTraits)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(panelSpellDetailsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(panelSpellDetailsLayout.createSequentialGroup()
+                        .addComponent(comboBoxSpellTraits, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(buttonSpellTraitsAdd)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(buttonSpellTraitsRemove))
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 12, Short.MAX_VALUE)
+                .addComponent(labelSpellModifications)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(panelSpellDetailsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelSpellDetailsLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(comboBoxSpellModifications, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(buttonSpellModificationsAdd)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(buttonSpellModificationsRemove))
+                    .addComponent(jScrollPane3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addComponent(jLabel1)
+                .addGap(6, 6, 6)
+                .addGroup(panelSpellDetailsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(panelSpellDetailsLayout.createSequentialGroup()
+                        .addComponent(comboBoxSpellTraits2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(buttonSpellTraitsAdd2)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(buttonSpellTraitsRemove2))
+                    .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap())
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -81,24 +273,56 @@ public class ManageSpellsViewPanel extends javax.swing.JPanel {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(panelZauberliste, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(panelSpells, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(panelZauberDetails, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(panelSpellDetails, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(panelZauberliste, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(panelZauberDetails, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(panelSpells, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(panelSpellDetails, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
     }// </editor-fold>//GEN-END:initComponents
 
+    private void listSpellsValueChanged(javax.swing.event.ListSelectionEvent evt) {//GEN-FIRST:event_listSpellsValueChanged
+        labelSpellName.setText(((String)listSpells.getSelectedValue()).toUpperCase());
+}//GEN-LAST:event_listSpellsValueChanged
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton buttonSpellModificationsAdd;
+    private javax.swing.JButton buttonSpellModificationsRemove;
+    private javax.swing.JButton buttonSpellTraitsAdd;
+    private javax.swing.JButton buttonSpellTraitsAdd2;
+    private javax.swing.JButton buttonSpellTraitsRemove;
+    private javax.swing.JButton buttonSpellTraitsRemove2;
+    private javax.swing.JComboBox comboBoxSpellModifications;
+    private javax.swing.JComboBox comboBoxSpellTraits;
+    private javax.swing.JComboBox comboBoxSpellTraits2;
+    private javax.swing.JComboBox jComboBox1;
+    private javax.swing.JComboBox jComboBox2;
+    private javax.swing.JComboBox jComboBox3;
+    private javax.swing.JComboBox jComboBox4;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JLabel labelZauberliste;
-    private javax.swing.JList listZauberliste;
-    private javax.swing.JPanel panelZauberDetails;
-    private javax.swing.JPanel panelZauberliste;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
+    private javax.swing.JLabel labelSpellCheck;
+    private javax.swing.JLabel labelSpellComplexity;
+    private javax.swing.JLabel labelSpellModifications;
+    private javax.swing.JLabel labelSpellName;
+    private javax.swing.JLabel labelSpells;
+    private javax.swing.JLabel labelTraits;
+    private javax.swing.JList listSpellModifications;
+    private javax.swing.JList listSpellTraits;
+    private javax.swing.JList listSpellTraits2;
+    private javax.swing.JList listSpells;
+    private javax.swing.JPanel panelSpellDetails;
+    private javax.swing.JPanel panelSpells;
     // End of variables declaration//GEN-END:variables
 
 }

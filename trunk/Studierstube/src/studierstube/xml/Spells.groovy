@@ -21,7 +21,7 @@ class Spells {
             input = this.class.getResourceAsStream('zauber.xml')
             println "Lade Zauber aus JAR-Datei ..."
             if (input == null) {
-                studierstube.gui.Popup.showErrorMessage("Zauber konnten nicht geladen werden")
+                studierstube.gui.Popup.errorMessage("Zauber konnten nicht geladen werden")
                 return null
             }
         }
@@ -31,15 +31,18 @@ class Spells {
         def spells = []
         xdiml.Studierstube.Zaubersprueche.children().each { zauber ->
             def merkmale = []
-            zauber.Merkmale.children().each { merkmale.add(it) }
+            zauber.Merkmale?.children()?.each { merkmale.add(it) }
+            def modifikationen = []
+            zauber.Modifikationen?.children()?.each { modifikationen.add(it) }
             def varianten = []
-            zauber.Varianten.children().each { varianten.add(it) }
+            zauber.Varianten?.children()?.each { varianten.add(it) }
             def s = new studierstube.model.Spell(
                 name:zauber.@name,
                 complexity:zauber.Komplexitaet,
                 attributes:zauber.Probe.toString().split("/"),
                 traits:merkmale,
-                variants:varianten)
+                modifications:modifikationen,
+                variants:varianten)  // TODO zuschlag etc.
             spells.add(s)
         }
         studierstube.model.Spell.list = spells
@@ -62,7 +65,7 @@ class Spells {
         }
         def file = new File(getUserFile())
         if (file.canWrite()) {
-            if (!studierstube.gui.Popup.showConfirmDialog("$file überschreiben?"))
+            if (!studierstube.gui.Popup.confirmDialog("$file überschreiben?"))
                 return  // no nothing
         }
 
@@ -72,12 +75,15 @@ class Spells {
                 Zaubersprueche {
                     spells.each { spell -> Zauber(name:spell.getName()) { // sort?
                             Komplexitaet(spell.getComplexity())
-                            Probe(spell.getAttributes().join("/"))
+                            Probe(spell.getAttributes()?.join("/"))
                             Merkmale() {
-                                spell.getTraits().sort().each { Merkmal(it) }
+                                spell.getTraits()?.sort()?.each { Merkmal(it) }
                             }
-                            Varianten() {
-                                spell.getVariants().sort().each { Variante(it) }
+                            Modifikationen() {
+                                spell.getModifications()?.sort()?.each { Modifikation(it) }
+                            }
+                            Varianten() {  // TODO zuschlag etc.
+                                spell.getVariants()?.sort()?.each { Variante(it) }
                             }
                     } }
                 }

@@ -12,7 +12,7 @@ package studierstube.gui
  * @author twel
  */
 class Popup {
-	static boolean showConfirmDialog(String message) {
+	static boolean confirmDialog(String message) {
         int n = javax.swing.JOptionPane.showConfirmDialog(
                 studierstube.Core.mainWindow,
                 message,
@@ -22,7 +22,7 @@ class Popup {
         else return false
     }
 
-    static void showErrorMessage(String message) {
+    static void errorMessage(String message) {
         int n = javax.swing.JOptionPane.showMessageDialog(
                 studierstube.Core.mainWindow,
                 message,

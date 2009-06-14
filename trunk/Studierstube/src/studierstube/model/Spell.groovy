@@ -22,14 +22,30 @@ class Spell {
 	String name
 	String complexity
 	String[] attributes
+    String[] traits
     String[] modifications
 	String[] variants
-    String[] traits
 
 	String toString() {
-		return "Name = $name; Komplexität = $complexity; Probe = $attributes; \
-                Modifikationen = $modifications; Varianten = $variants; \
-                Merkmale = $traits"
+		return "Spell ID ${this.hashCode()}: Name = $name; \
+Komplexität = $complexity; Probe = $attributes; Merkmale = $traits; \
+Modifikationen = $modifications; Varianten = $variants"
 	}
 
+    void setProperty(String propertyName, def value) {
+        def method = this.class.getMethod("set"+propertyName, value.getClass())
+        method.invoke(this, value);
+    }
+
+    static Spell byName(String name) {
+        list.find { it.name == name }  // finds first occurence
+    }
+
+    static String[] getSpellList() {
+        return list.collect { it.getName() }?.sort()
+    }
+
+    static String[] getUniqueTraits() { // just declare as String[] ?
+        return uniqueTraits
+    }
 }

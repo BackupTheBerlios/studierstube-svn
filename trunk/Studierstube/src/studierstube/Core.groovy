@@ -23,7 +23,7 @@ class Core {
 
     Core() {
         new studierstube.xml.Spells().load()
-
+        
         String program = NAME + " " + VERSION
         mainWindow = new studierstube.gui.MainViewFrame()
         mainWindow.setTitle(program)
